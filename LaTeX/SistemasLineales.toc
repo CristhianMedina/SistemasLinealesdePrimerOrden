@@ -1,0 +1,29 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{}%
+\contentsline {section}{\numberline {2}Conceptos y teoría básica}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Definición de Sistema de Ecuaciones Diferenciales Lineales de Primer Orden}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Teoría básica de los sistemas lineales de primer orden}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Problemas con Valores Iniciales}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Teorema de Existencia de Solución Unica}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Teoría correspondiente a Sistemas de Ecuaciones Diferenciales Lineales Homogéneos}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Definición de Vector Solución}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Principio de Superposición}{7}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Dependencia o Independencia Lineal}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.4}Criterio para las soluciones linealmente independientes}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.5}Definicion de conjunto fundamental de Soluciones}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.6}Existencia de un conjunto fundamental}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.7}Solución General de Sistemas Homogéneos}{9}{}%
+\contentsline {subsection}{\numberline {2.4}Sistemas Lineales homogéneos de Coeficientes constantes}{9}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Valores propios reales y distintos}{9}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Valores propios reales y repetidos}{12}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Valores propios complejos}{12}{}%
+\contentsline {section}{\numberline {3}Aplicación}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Mezclas}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Problema}{14}{}%
+\contentsline {section}{\numberline {4}Resultados}{19}{}%
+\contentsline {section}{\numberline {5}Conclusiones}{19}{}%
+\contentsline {section}{\numberline {6}Anexos}{20}{}%
+\contentsline {subsection}{\numberline {6.1}Grafica y tabla de resultados}{20}{}%
+\contentsline {subsection}{\numberline {6.2}Código usado en Matlab}{20}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Código para resolver sistema de ecuaciones diferenciales}{20}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Código para el calculo de determinantes de matrices cuadradas}{21}{}%

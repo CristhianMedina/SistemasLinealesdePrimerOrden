@@ -1,0 +1,46 @@
+% Universidad del Cauca
+% Ecuaciones Diferenciales
+% Solución de un sistema lineal de primer orden 2x2
+
+
+%Tiempo integración: Es el tiempo del intervalo en el que se dan las 
+%soluciones
+ts = (0:0.2:30);
+
+%Condiciones Iniciales necesariar para la obtención de los coeficientes que
+%acompañan a las soluciones
+x0 = [250,0];
+
+%Se resuelve mediante el solucionador ode45 función de Matlab para resolver
+%sistemas de ecuaciones diferenciales lineales:
+[t,x] = ode45(@SistemaEDLdePrimerOrden,ts,x0);
+
+%Esto se hace para la graficación de las soluciones del sistema; se ordena
+%la graficación de t y x ya sea X1 o X2. Los valores escritos como 'r' y
+%'b', son simplemente para darle el color a las grafica; hold on, significa
+%que se quiere que al graficar, se conserven las dos curvas.
+
+    plot(t,x(:,1),'r'); hold on;
+
+    plot(t,x(:,2),'b');
+
+    % Etiquetas de los ejes coordenados
+
+    legend('x1','x2'); xlabel('tiempo');
+
+    ylabel('X');
+
+%Se introduce la variable del sistema, llamada dxdt; dxdt(1) y dxdt(2), son
+%las primeras derivadas de x(1) y x(2), como se puede observar en las
+%ecuaciones escritas, y estas son las ecuaciones obtenidas analiticamente,
+%observando el sistema interconectado de los tanques.
+
+function dxdt = SistemaEDLdePrimerOrden(~,x)
+
+    dxdt(1) = (x(2)/50)-(2/25)*x(1);
+
+    dxdt(2) = (2/25)*x(1) - (2/25)*x(2);
+
+    dxdt = [dxdt(1);dxdt(2)];
+
+end
